@@ -34,8 +34,51 @@ display: flex;
     border-radius: 2rem;
   
 }
-.img{
+.nameDiv{
+    height: 3rem;
+    width: 60%;
+    background-color: rgb(247, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.infoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid  rgb(247, 93, 93);
+    flex-direction: column;
     height: 10rem;
-    width: 10rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.img{
+    height: 7rem;
+    width: 8rem;
     border-radius: 50%;
+}
+
+.DayOfTheWeek{
+    font-size: 1.2rem;
+}
+.UTCTime{
+    font-size: 1.2rem;
+}
+.track{
+    font-size: 1.2rem;
+}
+
+.linkDiv{
+display: flex;
+width: 100%;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.url{
+margin-left: .4rem;
 }
