@@ -2,7 +2,7 @@
 // Function to update the current UTC time
 function updateUTCTime() {
     const currentDate = new Date();
-    const currentUTCTime = currentDate.toISOString();
+    const currentUTCTime = currentDate.getTime();
     document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTime;
 }
 
